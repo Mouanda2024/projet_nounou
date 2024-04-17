@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTILISATEUR</title>
+  <link rel="stylesheet" href="utilisateur.css">
+</head>
+<body style="background-image: url(IMAGE/istockphoto-1331263633-612x612.jpg);">
+    <div class="wrappeer">
+        <form action="co.php" method="post">
+            <h1>SE CONNECTER</h1>
+            <div></div>
+
+    </div>
+  <div class="container">
+    <form class="user-form">
+    
+      <div class="form-group">
+        <label for="PRENOM">PRENOM:</label>
+        <input type="text" id="prenom" name="prenom" required>
+      </div>
+      <div class="form-group">
+        <label for="NOM">NOM :</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+      <div class="form-group">
+        <label for="EMAIL">ÉMAIL :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="MOT DE PASSE">MOT DE PASSE :</label>
+        <input type="password" id="motdepasse" name="mot_de_passe" required>
+      </div>
+
+      <div class="remenber-forgot">
+        <label><input type="checkbox">SE SOUVENIR DE MOI
+        </label>
+
+        <div class="form-group">
+          <label for="role">ROLE :</label>
+          <select id="role" name="role" required>
+              <option value="">TYPE D'UTILISATEUR</option>
+              <option value="parent">PARENT</option>
+              <option value="nounou">NOUNOU</option>
+          </select>
+      </div>
+        
+      </div>
+      <button type="submit" class="btn" name="valider">SE CONNECTER</button>
+    </form>
+  </div>
+</body>
+</html>
+
